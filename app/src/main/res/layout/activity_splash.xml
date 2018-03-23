@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/img_splash"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/txt_splash_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_splash"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Expense Manager"
+        android:textColor="@color/action_bar"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_splash_powered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Powered By Shiva Snape"
+        android:textColor="#636363"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
